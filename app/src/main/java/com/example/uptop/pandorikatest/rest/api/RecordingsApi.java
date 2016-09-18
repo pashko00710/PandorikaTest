@@ -1,0 +1,1 @@
+package com.example.uptop.pandorikatest.rest.api;import com.example.uptop.pandorikatest.rest.model.RecordingsModel;import retrofit.http.GET;import retrofit.http.Query;public interface RecordingsApi {    @GET("/search")    public RecordingsModel getRecordings(@Query("term") String term,                                         @Query("limit") int limit);}

@@ -1,0 +1,1 @@
+package com.example.uptop.pandorikatest.database;import com.raizlabs.android.dbflow.annotation.Database;@Database(name = PandorikaTestDataBase.NAME, version = PandorikaTestDataBase.VERSION)public class PandorikaTestDataBase {    public static final String NAME = "DataBase";    public static final int VERSION = 1;}
